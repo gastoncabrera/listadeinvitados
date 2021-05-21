@@ -1,0 +1,59 @@
+body {
+  background-color: #011627;
+}
+.hero h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2rem 0;
+}
+.hero input {
+  text-align: center;
+  width: 30vw;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}
+.hero button {
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  color: #011627;
+  align-content: center;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  background-color: #ff3366;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+.saludo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.invitado {
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.delete {
+  background-color: #ff3366;
+  color: #011627;
+  border: none;
+  border-radius: 3px;
+  margin-left: 18px;
+}
